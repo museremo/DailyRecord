@@ -9,9 +9,9 @@
 ->그래서 나온게 MVP
 
 
-**MVP** : 
+**MVP** : Model-View
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MjI2MjEyOSwxMjE3MzMyNDE3LDkxMT
-U4MDA3OF19
+eyJoaXN0b3J5IjpbMTM5MzkxMzk5MiwxNTcyMjYyMTI5LDEyMT
+czMzI0MTcsOTExNTgwMDc4XX0=
 -->
