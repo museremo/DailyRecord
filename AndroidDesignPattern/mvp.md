@@ -10,9 +10,9 @@
 
 
 **MVP** : Model-View-Presenter 패턴
-Activity는 View의 역할만을 가지고 Pr
+Presenter가 MVC의 Controller의 역할을 해줌으로써
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODc0NzEzNjQsMTU3MjI2MjEyOSwxMj
-E3MzMyNDE3LDkxMTU4MDA3OF19
+eyJoaXN0b3J5IjpbLTI5NzI3MTkyOCwxNTcyMjYyMTI5LDEyMT
+czMzI0MTcsOTExNTgwMDc4XX0=
 -->
