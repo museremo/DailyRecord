@@ -17,9 +17,9 @@ Presenter가 MVC의 Controller의 역할을 해줌으로써 Activity가 View의 
 -> 그래서 나온게 MVVM<br>
 
 **MVVM** : Model-View-ViewModel 패턴
-ViewModel은 Presenter나 Controller와 달리 View의 존재를 모름. View는 구독(
+ViewModel은 Presenter나 Controller와 달리 View의 존재를 모름. View는 구독(subscribe)을 통해 ViewModel에서 일어나는 데이터의 변화를 반영할 수 있음.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNjk1MDc5Miw1MTM0MzAxODksOTUwMz
-U0MjczLC0xNzkzMzkxMjA3LDE1NzIyNjIxMjksMTIxNzMzMjQx
-Nyw5MTE1ODAwNzhdfQ==
+eyJoaXN0b3J5IjpbLTE4NjI1OTU3NzEsNTEzNDMwMTg5LDk1MD
+M1NDI3MywtMTc5MzM5MTIwNywxNTcyMjYyMTI5LDEyMTczMzI0
+MTcsOTExNTgwMDc4XX0=
 -->
