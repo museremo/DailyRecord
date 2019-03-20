@@ -16,10 +16,11 @@ Presenter가 MVC의 Controller의 역할을 해줌으로써 Activity가 View의 
 -> 프로젝트 규모가 커지면 MVC의 Activity 처럼 Presenter도 비대해짐.<br>
 -> 그래서 나온게 MVVM<br>
 
-**MVVM** : 
+**MVVM** : Model-View-ViewModel 패턴
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEzNDMwMTg5LDk1MDM1NDI3MywtMTc5Mz
-M5MTIwNywxNTcyMjYyMTI5LDEyMTczMzI0MTcsOTExNTgwMDc4
-XX0=
+eyJoaXN0b3J5IjpbNDk0OTQ5ODkzLDUxMzQzMDE4OSw5NTAzNT
+QyNzMsLTE3OTMzOTEyMDcsMTU3MjI2MjEyOSwxMjE3MzMyNDE3
+LDkxMTU4MDA3OF19
 -->
