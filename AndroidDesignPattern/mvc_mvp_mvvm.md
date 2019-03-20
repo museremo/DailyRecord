@@ -16,12 +16,14 @@ Presenter가 MVC의 Controller의 역할을 해줌으로써 Activity가 View의 
 -> 프로젝트 규모가 커지면 MVC의 Activity 처럼 Presenter도 비대해짐.<br>
 -> 그래서 나온게 MVVM<br>
 
-**MVVM** : Model-View-ViewModel 패턴
-ViewModel은 Presenter나 Controller와 달리 View의 존재를 모름. View는 구독(subscribe)을 통해 ViewModel에서 일어나는 데이터의 변화를 반영할 수 있음.
--> MVP보다 더 뷰와 로직의 결합도를 낮출 수 있음
-->Data Binding, RxAndroid(RxJava), LiveData, Dependency Injection 등 다양한 개념들을 필요로 하기 때문에(블로그 마다 필수라고 말하는 라이브러리가 다름)
+**MVVM** : Model-View-ViewModel 패턴<br>
+ViewModel은 Presenter나 Controller와 달리 View의 존재를 모름.<br>
+ View는 구독(subscribe)을 통해 ViewModel에서 일어나는 데이터의 변화를 반영할 수 있음.<br>
+-> MVP보다 더 뷰와 로직의 결합도를 낮출 수 있음<br>
+->Data Binding, RxAndroid(RxJava), LiveData, Dependency Injection 등 다양한 개념들을 필요로 하기 때문에<br>
+(블로그 마다 필수라고 말하는 라이브러리가 다름) <br>러닝커브가 높음.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0Njc1ODc1MCwxMjcwOTM4MSw1MTM0Mz
-AxODksOTUwMzU0MjczLC0xNzkzMzkxMjA3LDE1NzIyNjIxMjks
-MTIxNzMzMjQxNyw5MTE1ODAwNzhdfQ==
+eyJoaXN0b3J5IjpbMjcwNzIwNDc5LDEyNzA5MzgxLDUxMzQzMD
+E4OSw5NTAzNTQyNzMsLTE3OTMzOTEyMDcsMTU3MjI2MjEyOSwx
+MjE3MzMyNDE3LDkxMTU4MDA3OF19
 -->
