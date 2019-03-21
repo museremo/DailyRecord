@@ -22,7 +22,19 @@ php -r "readfile('https://getcomposer.org/installer');" | php
 curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
 ```
+
+
+## 의존성 선언
+```text
+{
+    "require": {
+        "monolog/monolog": "1.2.*" //설치할 라이브러리의 이름과 버전
+    }
+}
+```
+
+##
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg2MTQwNjY4LDEzNDMxNjc3ODksLTU1Nz
-IyMzEyNF19
+eyJoaXN0b3J5IjpbLTc3Mjk1MTU3MSwxMzQzMTY3Nzg5LC01NT
+cyMjMxMjRdfQ==
 -->
