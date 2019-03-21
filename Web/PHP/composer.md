@@ -36,11 +36,11 @@ composer.json 파일에 의존 라이브러리 목록을 작성
 ```
 
 ## 자동 불러오기
-아래 코드를 코드에 추가하면 composer.json에 선언한 라이브러리 들이 자동
+아래 코드를 코드에 추가하면 composer.json에 선언한 라이브러리 들이 자동으로 불러와진다.
 ```text
 require 'vendor/autoload.php';
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2OTI5NDU2NiwxMzQzMTY3Nzg5LC01NT
+eyJoaXN0b3J5IjpbMTY5MzQwMzcwMiwxMzQzMTY3Nzg5LC01NT
 cyMjMxMjRdfQ==
 -->
