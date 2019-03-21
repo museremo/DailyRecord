@@ -11,14 +11,18 @@ php 5.3.2 이상
 ```sh
 curl -sS https://getcomposer.org/installer | php
 ```
-
 ```sh
 php -r "readfile('https://getcomposer.org/installer');" | php
 ```
+<br>
 
 
-
+글로벌 설치
+```sh
+curl -sS https://getcomposer.org/installer | php
+mv composer.phar /usr/local/bin/composer
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzc5MjQzNDgsMTM0MzE2Nzc4OSwtNT
-U3MjIzMTI0XX0=
+eyJoaXN0b3J5IjpbNzg2MTQwNjY4LDEzNDMxNjc3ODksLTU1Nz
+IyMzEyNF19
 -->
