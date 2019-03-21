@@ -7,9 +7,18 @@ Composer는 PHP 소프트웨어와 필요 라이브러리의 의존성을 관리
 ## Composer 설치
 php 5.3.2 이상
 
+로컬 설치
+```sh
+curl -sS https://getcomposer.org/installer | php
+```
+
+```sh
+php -r "readfile('https://getcomposer.org/installer');" | php
+```
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MTk2Mzc2OCwxMzQzMTY3Nzg5LC01NT
-cyMjMxMjRdfQ==
+eyJoaXN0b3J5IjpbLTEzNzc5MjQzNDgsMTM0MzE2Nzc4OSwtNT
+U3MjIzMTI0XX0=
 -->
