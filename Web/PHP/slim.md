@@ -10,8 +10,17 @@ router 기능을 통해 REST API를 비교적 간단하게 구현할 수 있다.
  composer require slim/slim "^3.0"
  ```
 
-편하게 시작하려면 
+편하게 시작하려면 스켈레톤 프로젝트를 사용하는 방법도 있음.
+
+```
+php composer.phar create-project slim/slim-skeleton [my-app-name]
+```
+
+```
+cd [my-app-name]
+php composer.phar start
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg0ODQ0NTMzLC0xOTgwMDA5NTEwLDE4Nz
-g1NDE5NTMsLTE1OTkwNTczOTddfQ==
+eyJoaXN0b3J5IjpbMTIzNzE4MTQzMywtMTk4MDAwOTUxMCwxOD
+c4NTQxOTUzLC0xNTk5MDU3Mzk3XX0=
 -->
