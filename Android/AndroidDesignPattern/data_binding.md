@@ -59,7 +59,16 @@ protected  void onCreate(Bundle savedInstanceState)  {
 ```
 
 <br>
-RE
+
+리사이클러뷰 등
+```
+ListItemBinding binding =  ListItemBinding.inflate(layoutInflater, viewGroup,  false);  
+//or  
+ListItemBinding binding =  DataBindingUtil._inflate_(layoutInflater, R.layout.list_item, viewGroup,  false);
+```
+
+
+이벤트 처리
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNzUzOTE3LDEyNjQ5NjAxODJdfQ==
+eyJoaXN0b3J5IjpbLTk4NDEzNzUxOSwxMjY0OTYwMTgyXX0=
 -->
