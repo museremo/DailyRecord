@@ -74,7 +74,15 @@ ListItemBinding binding =  DataBindingUtil._inflate_(layoutInflater, R.layout.li
 예 : setOnclickListener, addTextChangedListener 등 수많은 리스너
 <br>
 대신 메소드를 선언해서 만들고 xml 파일에서 그 메소드를 붙여주면 됨.
+<br>
+메소드
+
+```
+public void onButtonClick(View view){
+
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NjU2NDY2OCwxMjY0OTYwMTgyXX0=
+eyJoaXN0b3J5IjpbMzc2NDI1MDAzLDEyNjQ5NjAxODJdfQ==
 -->
