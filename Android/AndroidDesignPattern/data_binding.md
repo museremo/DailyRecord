@@ -19,7 +19,8 @@ android {
 ```
 
 ## xml 코드
-루트가 
+루트가 layout 태그로 시작해야 함
+data 태그 안에는 레이아웃에서 사용할 클래스들을 variable로 선언해서 씀
 ```
 <?xml version="1.0" encoding="utf-8"?>  
 <layout  xmlns:android="http://schemas.android.com/apk/res/android">
@@ -43,6 +44,8 @@ android {
 	 </LinearLayout>  
 </layout>
 ```
+
+## 코드에서
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzExNzg2MTEsMTI2NDk2MDE4Ml19
+eyJoaXN0b3J5IjpbNDAxMTc0ODgwLDEyNjQ5NjAxODJdfQ==
 -->
