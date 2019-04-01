@@ -78,11 +78,22 @@ ListItemBinding binding =  DataBindingUtil._inflate_(layoutInflater, R.layout.li
 메소드
 
 ```
-public void onButtonClick(View view){
-
+public class Handler {
+	public void onButtonClick(View view){
+	....
+	}
 }
+```
+<br>
+
+xml 파일
+```
+<TextView  android:layout_width="wrap_content"  
+android:layout_height="wrap_content"  
+android:text="@{user.firstName}"  
+android:onClick="@{handlers::onButtonClick}"/>
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc2NDI1MDAzLDEyNjQ5NjAxODJdfQ==
+eyJoaXN0b3J5IjpbLTE1ODA5NjQ1NzMsMTI2NDk2MDE4Ml19
 -->
