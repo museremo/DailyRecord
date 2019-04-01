@@ -21,7 +21,7 @@ android {
 ## xml 코드
 루트가 layout 태그로 시작해야 함
 data 태그 안에는 레이아웃에서 사용할 클래스들을 variable로 선언해서 씀
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>  
 <layout  xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -48,7 +48,7 @@ data 태그 안에는 레이아웃에서 사용할 클래스들을 variable로 �
 ## 코드에서 바인딩된 변수에 값 할당하기
 
 액티비티
-```
+```java
 @Override  
 protected  void onCreate(Bundle savedInstanceState)  { 
 	super.onCreate(savedInstanceState);  
@@ -61,10 +61,10 @@ protected  void onCreate(Bundle savedInstanceState)  {
 <br>
 
 리사이클러뷰 등
-```
+```java
 ListItemBinding binding =  ListItemBinding.inflate(layoutInflater, viewGroup,  false);  
 //or  
-ListItemBinding binding =  DataBindingUtil._inflate_(layoutInflater, R.layout.list_item, viewGroup,  false);
+ListItemBinding binding =  DataBindingUtil.inflate(layoutInflater, R.layout.list_item, viewGroup,  false);
 ```
 
 
@@ -77,7 +77,7 @@ ListItemBinding binding =  DataBindingUtil._inflate_(layoutInflater, R.layout.li
 <br>
 메소드
 
-```
+```java
 public class Handler {
 	public void onButtonClick(View view){
 	....
@@ -87,7 +87,7 @@ public class Handler {
 <br>
 
 xml 파일
-```
+```xml
 <TextView  android:layout_width="wrap_content"  
 android:layout_height="wrap_content"  
 android:text="@{user.firstName}"  
@@ -95,5 +95,5 @@ android:onClick="@{handlers::onButtonClick}"/>
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODA5NjQ1NzMsMTI2NDk2MDE4Ml19
+eyJoaXN0b3J5IjpbLTExODgxNTY0MTksMTI2NDk2MDE4Ml19
 -->
