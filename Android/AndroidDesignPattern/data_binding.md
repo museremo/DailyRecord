@@ -69,8 +69,12 @@ ListItemBinding binding =  DataBindingUtil._inflate_(layoutInflater, R.layout.li
 
 
 ## 이벤트 처리
-기존에 사용하던 이벤트 처리용 메소드들
-예 : setOnclickListener, addTextChangedListene
+기존에 사용하던 이벤트 처리용 메소드들을 사용할 필요가 없음
+<br>
+예 : setOnclickListener, addTextChangedListener 등 수많은 리스너
+<br>
+대신 메소드를 선언해서 만들고 xml 파일에서 그 메소드를 붙여주면 됨.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODY0MTAyODYsMTI2NDk2MDE4Ml19
+eyJoaXN0b3J5IjpbLTk2NjU2NDY2OCwxMjY0OTYwMTgyXX0=
 -->
