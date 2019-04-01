@@ -19,18 +19,30 @@ android {
 ```
 
 ## xml 코드
+루트가 
 ```
 <?xml version="1.0" encoding="utf-8"?>  
 <layout  xmlns:android="http://schemas.android.com/apk/res/android">
-	  <data>  
-		  <variable  name="user"  type="com.example.User"/>
-	  </data>
-	  <LinearLayout  android:orientation="vertical"
+
+	<data>  
+		<variable  name="user"  type="com.example.User"/>
+	</data>
+	
+	<LinearLayout  android:orientation="vertical"
 	    android:layout_width="match_parent"
 	    android:layout_height="match_parent">
-	        <TextView  android:layout_width="wrap_content"  android:layout_height="wrap_content"  android:text="@{user.firstName}"/>  <TextView  android:layout_width="wrap_content"  android:layout_height="wrap_content"  android:text="@{user.lastName}"/>  </LinearLayout>  
+	   
+	    <TextView  android:layout_width="wrap_content" 
+	     android:layout_height="wrap_content"  
+	     android:text="@{user.firstName}"/>  
+	    
+	     <TextView  
+	     android:layout_width="wrap_content"  
+	     android:layout_height="wrap_content"  
+	     android:text="@{user.lastName}"/>  
+	 </LinearLayout>  
 </layout>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MTE2NDY5NywxMjY0OTYwMTgyXX0=
+eyJoaXN0b3J5IjpbLTEyMzExNzg2MTEsMTI2NDk2MDE4Ml19
 -->
