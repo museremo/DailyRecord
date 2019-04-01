@@ -68,7 +68,9 @@ ListItemBinding binding =  DataBindingUtil._inflate_(layoutInflater, R.layout.li
 ```
 
 
-이벤트 처리
+## 이벤트 처리
+기존에 사용하던 이벤트 처리용 메소드들
+예 : setOnclickListener, addTextChangedListene
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NDEzNzUxOSwxMjY0OTYwMTgyXX0=
+eyJoaXN0b3J5IjpbLTExODY0MTAyODYsMTI2NDk2MDE4Ml19
 -->
