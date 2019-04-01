@@ -45,7 +45,11 @@ data 태그 안에는 레이아웃에서 사용할 클래스들을 variable로 �
 </layout>
 ```
 
-## 코드에서
+## 코드에서 바인딩된 변수에 값 할당하기
+```
+@Override  
+protected  void onCreate(Bundle savedInstanceState)  {  super.onCreate(savedInstanceState);  MainActivityBinding binding =  DataBindingUtil.setContentView(this, R.layout.main_activity);  User user =  new  User("Test",  "User"); binding.setUser(user);  
+}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAxMTc0ODgwLDEyNjQ5NjAxODJdfQ==
+eyJoaXN0b3J5IjpbLTg0OTIzNTk5NywxMjY0OTYwMTgyXX0=
 -->
