@@ -13,6 +13,9 @@ AuthType을 KAKAO_LOGIN_ALL로 해놨으면
 
 카카오톡 설치 안한 사람이 거의 없을 거니까 확률은 낮지만
 만약 그런 사람이 '카카오톡으로 간편로그인' 버튼 누르면 완전 분노할 듯
+
+
+근데 뭐지....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMDY0MTAyNV19
+eyJoaXN0b3J5IjpbMjAwNjIzMjAxM119
 -->
